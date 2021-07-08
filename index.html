@@ -6,20 +6,79 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Raleway:wght@700&display=swap"
     rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="style.css">
     <title>Counter</title>
 </head>
-<body>
-    <div class="container">
-        <div class="inner">
-            <div class="counter">
+<body 
+    style= "margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            background-color: rgb(14, 14, 14);">            
+    <div class="container" 
+        style= "width: 37.5%;
+                height: 600px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                flex-direction: column;
+                background-color: #BB9E72;
+                font-family: 'Open Sans', sans-serif;">
+        <div class="inner"
+            style= "width: 65%;
+                    height: 500px;
+                    border: 1px solid #fff;
+                    box-shadow: 2px 4px 2px #000;
+                    text-align: center;
+                    text-transform: uppercase;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    border-radius: 6px;">
+            <div class="counter" 
+                style= "font-size: 41px;
+                        color: #fff;
+                        position: relative;
+                        top: 20px;
+                        margin: 0 0 20px 0;">
                 <p>Counter</p>
             </div>
-            <div class="number">
+            <div class="number" 
+                style= " font-size: 180px;
+                        position: relative;
+                        top: -35px;
+                        color: #008000;">
             </div>
-            <div class="change-count">
-                <button class="btn lower">Lower Count</button>
-                <button class="btn add">Add Count</button>
+            <div class="change-count" 
+                style= " display: flex;
+                        flex-direction: column;
+                         align-items: center;
+                        position: relative;
+                        top: -35px;">
+                <button class="btn lower" 
+                        style= "  padding: 13px;
+                                text-transform: uppercase;
+                                background-color: #0D2C54;
+                                 color: #fff;
+                                 font-size: 16px;
+                                border-radius: 6px;
+                                margin-bottom: 17px;
+                                box-shadow: 1px 1px 1px rgb(89, 89, 89);
+                                cursor: pointer;
+                                transition: all 0.4s;">Lower Count</button>
+                <button class="btn add" 
+                        style= "  padding: 13px;
+                                text-transform: uppercase;
+                                background-color: #0D2C54;
+                                color: #fff;
+                                font-size: 16px;
+                                border-radius: 6px;
+                                margin-bottom: 17px;
+                                box-shadow: 1px 1px 1px rgb(89, 89, 89);
+                                cursor: pointer;
+                                transition: all 0.4s;">Add Count</button>
             </div>
         </div>
     </div>
